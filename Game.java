@@ -109,7 +109,23 @@ public class Game {
 	TimeUnit.SECONDS.sleep(1);
 	System.out.println("Each class has a different amount of health, heavy has more, light has less.");
 	TimeUnit.SECONDS.sleep(2);
-	System.out.println("The next stat is shield");
+	System.out.println("The next stat is shield.");
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("The anmount of shield is the same on every ship, however, the shield only prevents energy weapons from penetrating it, normal weapons will pass right through it.");
+	TimeUnit.SECONDS.sleep(2);
+	System.out.println("Now lets move on to speed.");
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("Light ships have more speed than heavy ships.\nSpeed determines how long it takes to travel to destinations.\nIt also determines the chance that your ship will dodge an attack.");
+	TimeUnit.SECONDS.sleep(3);
+	System.out.println("Next we have damage.");
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("Each ship has a base damage value, with heavy ships having slightly more than light.\nThis base damage is added to the damage of an attack, and the total damage is done to the enemy.");
+	TimeUnit.SECONDS.sleep(3);
+	System.out.println("Lastly, we have dodge chance.");
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("Dodge chance is higher in light ships, and heavy ships are incapable of dodging.");
+	TimeUnit.SECONDS.sleep(1);
+	
 	in.close();
 		
 	}
