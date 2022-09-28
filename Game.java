@@ -110,9 +110,9 @@ public class Game {
 		
 		if(!shipName.isEmpty()) {
 			shipNameBool = true;
-			System.out.println("\"" + shipName + ".\" That’s not a bad name.");
+			System.out.println("\"" + shipName + ".\" That's not a bad name.");
 			TimeUnit.SECONDS.sleep(1);
-			System.out.println("Now, your ship doesn’t exactly exist at this moment because it doen’t have a class.");
+			System.out.println("Now, your ship doesn't exactly exist at this moment because it doenï¿½t have a class.");
 		}else if (shipName.isEmpty()){
 			
 			System.out.println("Unfortunately, your ship name cannot be empty.");
@@ -120,28 +120,38 @@ public class Game {
 		}
 	}while (shipNameBool == false);
 	
-	System.out.println("Don’t worry, I will walk you through the classes and stats.");
+	System.out.println("Don't worry, I will walk you through the classes and stats.");
 	TimeUnit.SECONDS.sleep(1);
 	System.out.println("The first stat is health.");
 	TimeUnit.SECONDS.sleep(1);
 	System.out.println("Each class has a different amount of health, heavy has more, light has less.");
-	TimeUnit.SECONDS.sleep(3);
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("<Press ENTER to continue>");
+	in.nextLine();
 	System.out.println("The next stat is shield.");
 	TimeUnit.SECONDS.sleep(1);
-	System.out.println("The anmount of shield is the same on every ship,\nhowever the shield only prevents energy weapons from penetrating it, normal weapons will pass right through it.");
-	TimeUnit.SECONDS.sleep(3);
+	System.out.println("The anmount of shield is the same on every ship,\nHowever the shield only prevents energy weapons from penetrating it, normal weapons will pass right through it.");
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("<Press ENTER to continue>");
+	in.nextLine();
 	System.out.println("Now lets move on to speed.");
 	TimeUnit.SECONDS.sleep(1);
 	System.out.println("Light ships have more speed than heavy ships.\nSpeed determines how long it takes to travel to destinations.\nIt also determines the chance that your ship will dodge an attack.");
-	TimeUnit.SECONDS.sleep(4);
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("<Press ENTER to continue>");
+	in.nextLine();
 	System.out.println("Next we have damage.");
 	TimeUnit.SECONDS.sleep(1);
 	System.out.println("Each ship has a base damage value, with heavy ships having slightly more than light.\nThis base damage is added to the damage of an attack, and the total damage is done to the enemy.");
-	TimeUnit.SECONDS.sleep(4);
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("<Press ENTER to continue>");
+	in.nextLine();
 	System.out.println("Lastly, we have dodge chance.");
 	TimeUnit.SECONDS.sleep(1);
 	System.out.println("Dodge chance is higher in light ships, and heavy ships are incapable of dodging.");
-	TimeUnit.SECONDS.sleep(2);
+	TimeUnit.SECONDS.sleep(1);
+	System.out.println("<Press ENTER to continue>");
+	in.nextLine();
 	
 	in.close();
 		
